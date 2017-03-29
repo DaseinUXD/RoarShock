@@ -28,10 +28,11 @@
             <h1>Home Page</h1>
             <p>This is the index.cshtml</p>
             <svg xmlns="http://www.w3.org/2000/svg">
-                <img src="/img/SVG Elements/01.svg" />
-                <object class="emb" data="/img/SVG Elements/01.svg" width="100" height="100" type="image/svg+xml"></object>
-                
+                <img src="/img/SVG_Elements/01.svg" />
             </svg>
+                <object class="emb" data="img/SVG_GrayBlots/01_Card I_gray.svg" type="image/svg+xml"></object>
+
+            
 
         </main>
     </div>
@@ -42,44 +43,9 @@
         </div>
     </footer>
     <script src="/js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="js/snap.svg.js"></script>
     <script src="/js/site.js"></script>
-    <script>
-        $(document).ready(function () {
-            var g = $('img g');
-            console.log( g );
-        });
-    </script>
-    <script>
-//<![CDATA[
-
-                // wait until all the resources are loaded
-                window.addEventListener("load", findSVGElements, false);
-
-                // fetches the document for the given embedding_element
-                function getSubDocument(embedding_element) {
-                    if (embedding_element.contentDocument) {
-                        return embedding_element.contentDocument;
-                    }
-                    else {
-                        var subdoc = null;
-                        try {
-                            subdoc = embedding_element.getSVGDocument();
-                        } catch (e) { }
-                        return subdoc;
-                    }
-                }
-
-                function findSVGElements() {
-                    var elms = document.querySelectorAll(".emb");
-                    for (var i = 0; i < elms.length; i++) {
-                        var subdoc = getSubDocument(elms[i])
-                        if (subdoc)
-                            subdoc.getElementById("svgbar").setAttribute("fill", "lime");
-                    }
-                }
-		//]]>
-    </script>
 
 </body>
 </html>

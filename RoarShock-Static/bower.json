@@ -1,0 +1,6 @@
+{
+  "name": "myproject",
+  "dependencies": {
+    "Snap.svg": "snap.svg#^0.5.1"
+  }
+}

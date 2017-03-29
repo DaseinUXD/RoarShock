@@ -35,18 +35,21 @@
     <Content Include="bin\Debug\netcoreapp1.0\RoarShock-Static.deps.json" />
     <Content Include="bin\Debug\netcoreapp1.0\RoarShock-Static.runtimeconfig.dev.json" />
     <Content Include="bin\Debug\netcoreapp1.0\RoarShock-Static.runtimeconfig.json" />
+    <Content Include="wwwroot\css\font-awesome.css" />
     <Content Include="wwwroot\css\bootstrap-theme.css" />
     <Content Include="obj\Debug\netcoreapp1.0\RoarShock-Static.csproj.FileListAbsolute.txt" />
     <Content Include="obj\project.assets.json" />
     <Content Include="wwwroot\css\bootstrap.css" />
     <Content Include="wwwroot\css\periodicTable.scss" />
     <Content Include="wwwroot\css\periodicTable.css" />
+    <Content Include="wwwroot\js\inkblots\01_Card_I.js" />
     <Content Include="wwwroot\periodicTable.html" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="bin\Debug\netcoreapp1.0\RoarShock-Static.dll" />
     <None Include="bin\Debug\netcoreapp1.0\RoarShock-Static.pdb" />
+    <None Include="wwwroot\js\snap.svg.js" />
     <None Include="wwwroot\js\bootstrap.js" />
     <None Include="wwwroot\js\jquery.js" />
     <None Include="obj\Debug\netcoreapp1.0\CoreCompileInputs.cache" />
@@ -75,7 +78,9 @@
   <ItemGroup>
     <Folder Include="bower_components\bootstrap\dist\css\" />
     <Folder Include="bower_components\bootstrap\dist\js\" />
+    <Folder Include="bower_components\font-awesome\css\" />
     <Folder Include="bower_components\jquery\dist\" />
+    <Folder Include="bower_components\Snap.svg\dist\" />
   </ItemGroup>
 
 </Project>
