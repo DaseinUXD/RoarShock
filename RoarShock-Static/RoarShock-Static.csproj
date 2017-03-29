@@ -142,6 +142,18 @@
     <Content Include="wwwroot\img\SVG Elements\ZD.svg" />
     <Content Include="wwwroot\img\SVG Elements\ZS.svg" />
     <Content Include="wwwroot\img\SVG Elements\ZW.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\01_Card I_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\01_Card I_large.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\01_Card I_plain.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\02_Card II_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\03_Card III_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\04_Card IV_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\05_Card V_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\06_Card VI_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\07_Card VII_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\08_Card VIII_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\09_Card IX_gray.svg" />
+    <Content Include="wwwroot\img\SVG GrayBlots\10_Card X_gray.svg" />
     <Content Include="wwwroot\periodicTable.html" />
   </ItemGroup>
 
