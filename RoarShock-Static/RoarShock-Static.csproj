@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>RoarShock-Static</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>RoarShock-Static</PackageId>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bower_components\**" />
+    <Compile Remove="wwwroot\img\SVG Elements\**" />
+    <Compile Remove="wwwroot\img\SVG GrayBlots\**" />
+    <Content Remove="bower_components\**" />
+    <Content Remove="wwwroot\img\SVG Elements\**" />
+    <Content Remove="wwwroot\img\SVG GrayBlots\**" />
+    <EmbeddedResource Remove="bower_components\**" />
+    <EmbeddedResource Remove="wwwroot\img\SVG Elements\**" />
+    <EmbeddedResource Remove="wwwroot\img\SVG GrayBlots\**" />
+    <None Remove="bower_components\**" />
+    <None Remove="wwwroot\img\SVG Elements\**" />
+    <None Remove="wwwroot\img\SVG GrayBlots\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp1.0\RoarShock-Static.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp1.0\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\netcoreapp1.0\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\netcoreapp1.0\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp1.0\RoarShock-Static.deps.json" />
+    <Content Include="bin\Debug\netcoreapp1.0\RoarShock-Static.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp1.0\RoarShock-Static.runtimeconfig.json" />
+    <Content Include="wwwroot\css\font-awesome.css" />
+    <Content Include="wwwroot\css\bootstrap-theme.css" />
+    <Content Include="obj\Debug\netcoreapp1.0\RoarShock-Static.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="wwwroot\css\bootstrap.css" />
+    <Content Include="wwwroot\css\periodicTable.scss" />
+    <Content Include="wwwroot\css\periodicTable.css" />
+    <Content Include="wwwroot\js\inkblots\01_Card_I.js" />
+    <Content Include="wwwroot\periodicTable.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp1.0\RoarShock-Static.dll" />
+    <None Include="bin\Debug\netcoreapp1.0\RoarShock-Static.pdb" />
+    <None Include="wwwroot\js\snap.svg.js" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\jquery.js" />
+    <None Include="obj\Debug\netcoreapp1.0\CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp1.0\RoarShock-Static.dll" />
+    <None Include="obj\Debug\netcoreapp1.0\RoarShock-Static.pdb" />
+    <None Include="obj\RoarShock-Static.csproj.nuget.g.props" />
+    <None Include="obj\RoarShock-Static.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="**\*">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+    <None Update="**\*.cs">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bower_components\bootstrap\dist\css\" />
+    <Folder Include="bower_components\bootstrap\dist\js\" />
+    <Folder Include="bower_components\font-awesome\css\" />
+    <Folder Include="bower_components\jquery\dist\" />
+    <Folder Include="bower_components\Snap.svg\dist\" />
+  </ItemGroup>
+
+</Project>

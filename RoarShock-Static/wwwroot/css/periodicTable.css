@@ -1,0 +1,102 @@
+﻿/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background: #f2f2f2; }
+
+.gutter-20.row {
+  margin-right: -10px;
+  margin-left: -10px; }
+
+.gutter-20 > [class="col"] {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.gutter-10.row {
+  margin-right: -5px;
+  margin-left: -5px; }
+
+.gutter-10 > [class="col"] {
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.gutter-0.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.gutter-0 > [class="col"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.empty {
+  width: 2.25em;
+  height: 2.25em;
+  background-color: transparent;
+  color: transparent;
+  border: none; }
+
+.rorElement {
+  width: 3.0rem;
+  height: 3.5rem;
+  border: solid;
+  border-color: #696969;
+  border-width: 2px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 0.3rem;
+  font-size: 1.2em;
+  margin: 1px;
+  display: inline-axis; }
+
+div.rorElement.determinant:last-child {
+  float: right; }
+
+div.rorElement.response:first-child,
+div.rorElement.location:first-child {
+  float: left; }
+
+.response {
+  background-color: #F0FFFF;
+  color: #696969; }
+
+.location {
+  background-color: #588c7e;
+  color: #f2f2f2; }
+
+.devQuality {
+  background-color: #f2e394;
+  color: #696969; }
+
+.determinant {
+  background-color: #f2ae72;
+  color: #f2f2f2; }
+
+.content {
+  background-color: #d96459;
+  color: #f2f2f2; }
+
+.formQuality {
+  background-color: #96ceb4;
+  color: #696969;
+  float: right; }
+
+.pair {
+  background-color: #ffeead;
+  color: #696969;
+  float: right; }
+
+.zScore {
+  background-color: #ffcc5c;
+  color: #696969; }
+
+.specialScore {
+  background-color: #ff6f69;
+  color: #f2f2f2;
+  font-size: 1em; }
+
+.popular {
+  background-color: #d96459;
+  color: #f2f2f2;
+  float: right; }
+
