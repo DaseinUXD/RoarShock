@@ -1,0 +1,136 @@
+﻿/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+$color-response: #F0FFFF;
+$color-location: #588c7e;
+$color-devQuality: #f2e394;
+$color-determinant: #f2ae72;
+$color-content: #d96459;
+$color-formQuality: #96ceb4;
+$color-pair: #ffeead;
+$color-zScore: #ffcc5c;
+$color-specialScore: #ff6f69;
+
+$text-dark: #696969;
+$text-light: #f2f2f2;
+
+body {
+    background: $text-light;
+}
+// 20px gutter
+.gutter-20.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.gutter-20 > [class="col"] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+// 10px gutter
+.gutter-10.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.gutter-10 > [class="col"] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+// 0px gutter
+.gutter-0.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.gutter-0 > [class="col"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.empty {
+    width: 2.25em;
+    height: 2.25em;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+}
+
+.rorElement {
+    width: 3.0rem;
+    height: 3.5rem;
+    border: solid;
+    border-color: $text-dark;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 0.3rem;
+    font-size: 1.2em;
+    margin: 1px;
+    display: inline-axis;
+}
+
+div.rorElement.determinant:last-child {
+    float: right;
+}
+
+div.rorElement.response:first-child,
+div.rorElement.location:first-child {
+    float: left;
+}
+
+.response {
+    background-color: $color-response;
+    color: $text-dark;
+}
+
+.location {
+    background-color: $color-location;
+    color: $text-light;
+}
+
+.devQuality {
+    background-color: $color-devQuality;
+    color: $text-dark;
+}
+
+.determinant {
+    background-color: $color-determinant;
+    color: $text-light;
+}
+
+.content {
+    background-color: $color-content;
+    color: $text-light;
+}
+
+.formQuality {
+    background-color: $color-formQuality;
+    color: $text-dark;
+    float: right;
+}
+
+.pair {
+    background-color: $color-pair;
+    color: $text-dark;
+    float: right;
+}
+
+.zScore {
+    background-color: $color-zScore;
+    color: $text-dark;
+}
+
+.specialScore {
+    background-color: $color-specialScore;
+    color: $text-light;
+    font-size: 1em;
+}
+
+.popular {
+    background-color: $color-content;
+    color: $text-light;
+    float: right;
+}
