@@ -2,5 +2,13 @@
   {
     "outputFile": "wwwroot/css/periodicTable.css",
     "inputFile": "wwwroot/css/periodicTable.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/theme.css",
+    "inputFile": "wwwroot/css/theme.less"
+  },
+  {
+    "outputFile": "wwwroot/css/variables.css",
+    "inputFile": "wwwroot/css/variables.less"
   }
 ]
