@@ -49,6 +49,28 @@
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\img\SVG_Elements\Bl.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Bt.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Cg.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Cl.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\CONFAB.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\DQplus.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\DQplusv.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Ex.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Fi.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Food.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\FQminus.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\FQplus.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Ge.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Hh.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Hx.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Id.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Ls.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Na.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Sc.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Sx.svg" />
+    <Content Include="wwwroot\img\SVG_Elements\Xy.svg" />
+    <Content Include="wwwroot\svgTable.html" />
     <Content Include="wwwroot\js\inkblots\01_Card_I.js" />
     <Content Include="wwwroot\periodicTable.html" />
   </ItemGroup>
@@ -56,6 +78,7 @@
   <ItemGroup>
     <None Include="bin\Debug\netcoreapp1.0\RoarShock-Static.dll" />
     <None Include="bin\Debug\netcoreapp1.0\RoarShock-Static.pdb" />
+    <None Include="wwwroot\js\shuffle.js" />
     <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
     <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="wwwroot\js\tether.js" />
@@ -93,6 +116,7 @@
     <Folder Include="bower_components\jquery\dist\" />
     <Folder Include="bower_components\Snap.svg\dist\" />
     <Folder Include="bower_components\tether\dist\js\" />
+    <Folder Include="node_modules\shufflejs\dist\" />
   </ItemGroup>
 
   <ItemGroup>
